@@ -1,0 +1,6 @@
+# Ignore all
+*
+# Except directories
+!*/
+# and files with extensions.
+!*.*
