@@ -26,9 +26,9 @@ def file_content(name):
         using namespace std;
 
         int main() {{
-            ofstream fout("{name}.out");
-            ifstream fin("{name}.in");
-            return 0;
+          ofstream fout("{name}.out");
+          ifstream fin("{name}.in");
+          return 0;
         }}""")
     return content
 
